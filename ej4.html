@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="funciones.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <script>
+            parseInt(celsius=prompt("Put temperature in Celsius and will convert into Farenheit"));
+            parseInt(farenheit=prompt("Put temperature in Farenheit and will convert into Celsius"));
+            //llamamos a la funcion con los valores
+            var [faren, cel] = convertTemperature();
+            document.write(celsius +"ºC is "+ faren.toFixed(2) +"ºF <br>");
+            document.write(farenheit +"ºF is "+ cel.toFixed(2)+"ºC")
+    </script>
+</body>
+</html>
